@@ -1,11 +1,11 @@
 name: MazeBuilder
 main: com.eatsleepcode.mazebuilder.MazeBuilder
-version: 2025.02.14.15
+version: 2025.02.14.18
 api: [1.0.11]
 author: eat-sleep-code
 description: Build a lighted, randomly-generated maze.   Players successfully completing the maze will receive a prize.   After the maze has been successfully completed, a new maze is generated.
 commands:
-  ladder:
+  maze:
     description: Build a lighted, randomly-generated maze.
     usage: /maze <material> <width> <length>
     permission: maze.create

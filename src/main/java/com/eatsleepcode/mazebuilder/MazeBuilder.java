@@ -28,7 +28,12 @@ public class MazeBuilder extends PluginBase implements Listener {
 
 	@Override
 	public void onEnable() {
-		this.getServer().getPluginManager().registerEvents(this, this);
+		getLogger().info(TextFormat.GREEN + "MazeBuilder Loaded!");
+	}
+
+	@Override
+	public void onDisable() {
+		getLogger().info(TextFormat.RED + "MazeBuilder Disabled!");
 	}
 
 	@Override
